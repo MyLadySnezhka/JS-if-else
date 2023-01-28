@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Умовні оператори</title>
+</head>
+<body>
+    
+    <select name="sex_select">
+        <option value="sexxx">Оберіть стать:</option>
+        <option value="female">Жіноча</option>
+        <option value="male">Чоловіча</option>
+    </select>
+    <div class="answer"></div>
+    <style>
+        .age_block:not(.show) {
+            display: none;
+        }
+    </style>
+    <div class="age_block">
+        <input id="year" class="year" name="year" type="number" placeholder="Введіть рік" maxlength="4">
+    </div>
+    
+<script src="./js/main.js"></script>
+</body>
+</html>

@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <!--<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js" />-->
     <link rel="stylesheet" href="./styles/main.css">
+
     <title>Умовні оператори</title>
 </head>
 <body>
-    
+<div class="wrap">
     <select name="sex_select">
         <option value="sexxx">Оберіть стать:</option>
         <option value="female">Жіноча</option>
@@ -21,9 +24,12 @@
         }
     </style>
     <div class="age_block">
-        <input id="year" class="year" name="year" type="number" placeholder="Введіть рік" maxlength="4">
+        <input id="year" class="year" name="year" type="text" placeholder="Введіть рік" maxlength="4"> 
+        <button type="button" name="btn_close" class="btn_close">X</button>
     </div>
-    
+    <div class="comment"></div>
+</div>   
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
 <script src="./js/main.js"></script>
 </body>
 </html>

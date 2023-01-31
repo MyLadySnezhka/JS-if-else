@@ -19,6 +19,8 @@ elSelectSex.addEventListener('change', (ev) => {
         elAnswer.innerHTML = `<p>Яка ж ти гарненька киця! <br> У жінок про вік не питають!</p><img src="./images/catgirl.gif">`;
         elAge.classList.remove('show');
     } else if (sex === 'male') { 
+        elInputYear.value = '';
+        elInputDate.value = '';
         elAnswer.innerHTML = 'Якого ти року народження?';
         elAge.classList.add('show');
         elComment.innerHTML = '';

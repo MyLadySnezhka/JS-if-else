@@ -5,10 +5,8 @@
   font-size: 64px;
 }
 
-.age_block {
+.age_block, .time, .bday {
   margin: 30px 0;
-  width: 100px;
-  display: flex;
   box-sizing: border-box;
 }
 
